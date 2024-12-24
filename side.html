@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SIDE NAVIGATION</title>
+    <style>
+    body{
+      margin: 0;
+      font-family: Verdana;
+      font-size: 27px;
+      color: white;
+    }
+    nav{
+      width: 220px;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: rgb(0,0,0);
+      text-align: center;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      box-shadow: 10px 0px 10px 10px gray;
+    }
+    .brand{
+      margin-top: 10px;
+      color: white;
+    }
+    .title{
+      margin: 0px;
+      padding-bottom: 25px;
+      position: relative;
+      top: 15px;
+    }
+    .link{
+        padding-top: 20px;
+        font-size: 20px;
+        margin-right: 20px;
+
+    }
+    a{
+      margin: 20px 0px;
+      color: white;
+      display: block;
+      text-decoration: none;
+      transition: 0.3s;
+      width: 200px;
+    }
+    a:hover{
+      color: black;
+      background: white;
+      border-radius: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .logo{
+        border-radius: 25px;
+        float: left;
+    }
+    .main{
+      margin-left: 5px;
+      position: absolute;
+      bottom:0;
+      font-size: 20px;
+    }
+
+    </style>
+  </head>
+  <body>
+      <nav>
+        <div class="brand">
+          <img class="logo" src="logo.png" width="80px">
+            <h3 class="title">Justine</h3>
+        </div>
+
+        <div class="link">
+          <a href="top.html">TopNav  </a> _______
+          <a href="side.html">SideNav </a>_______
+          <a href="#">Service</a>
+        </div>
+        <div class="main">
+          <p>JUSTINE SANTOS</p>
+        </div>
+      </nav>
+
+  </body>
+</html>
